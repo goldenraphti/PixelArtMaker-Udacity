@@ -1,11 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
 body {
-    text-align: center;
+      background:#ffffff;
+      color:#1d1d1d;
+      text-align:center;
+      font-family: 'Open Sans', sans-serif;
+      font-weight:300;
 }
 
 h1 {
     font-family: Monoton;
     font-size: 70px;
-    margin: 0.2em;
+    margin: 0.5em;
+    margin-bottom: 5%;
 }
 
 h2 {
@@ -28,7 +35,7 @@ table {
 }
 
 tr {
-    height: 20px;
+    height: 20px; 
 }
 
 td {
@@ -37,4 +44,8 @@ td {
 
 input[type=number] {
     width: 6em;
+}
+
+#extras-buttons{
+    margin: 5%;
 }
