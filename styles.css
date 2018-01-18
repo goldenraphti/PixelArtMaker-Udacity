@@ -1,11 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 
 body {
-      background:#ffffff;
-      color:#1d1d1d;
-      text-align:center;
-      font-family: 'Open Sans', sans-serif;
-      font-weight:300;
+    background: linear-gradient(135deg, #1CD8D2, #93EDC7) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    background-size: cover;
+    color:#fff;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+
 }
 
 h1 {
@@ -23,6 +28,57 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
+
+/* ALL PANELS*/
+
+
+.white-div{
+    background: #fff;
+    color: #0f0f0f;
+    box-shadow: 1px 1px 2px 0.2px rgba(49, 49, 49, 0.64);
+    border-radius: 0.2em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*GRID SETTING PANEL*/
+
+#grid-setting-panel{
+    width: 15%;
+    margin-left: 5%;
+    margin-right: auto;
+    padding: 2%;
+    position: relative;
+    left:;
+}
+
+#sizePicker * {
+    margin-top: 1em;
+}
+
+input[type=number] {
+    width: 4em;
+    margin-right: 2em;
+}
+
+
+#pick-grid-color * {
+    display: inline-block;
+}
+
+
+#grid-submit-button {
+    margin-top: 2em;
+}
+
+#color-picker-div{
+    margin-top: 2em;
+}
+
+
+
+/*GRID*/
+
 table,
 tr,
 td {
@@ -32,6 +88,7 @@ td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    border: 2px solid black;
 }
 
 tr {
@@ -42,10 +99,70 @@ td {
     width: 20px;
 }
 
-input[type=number] {
-    width: 6em;
+#central-panel{
+    display: inline-block;
+    position: relative;
+    left: ;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-#extras-buttons{
-    margin: 5%;
+#table-div{
+    width: 100%;
+    background: #fff;
+    padding: 1%;
 }
+
+
+/*TOOL PANEL*/
+
+.tool-div{
+    width: auto;
+}
+
+#tool-panel{
+    display: inline-block;
+    width: 6%;
+    margin-right: 9%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#tool-panel button{
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    margin: 5%;
+    color: #120f2b;
+    border: 1px solid #2a2a2a;
+}
+
+#tool-panel button:hover{
+    color: #fff;
+    background: linear-gradient(135deg, #1CD8D2, #93EDC7);
+    border: 1px solid #2a2a2a;
+}
+
+
+
+/*Footer*/
+
+footer button{
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#credit-hidden-window{
+    background: rgba(255, 255, 255, 0.64);
+    color: #000;
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 50%;
+}
+
+
+
